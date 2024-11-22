@@ -16,7 +16,7 @@ public class User {
     @Column(name = "userName")
     private String userName;
 
-    @Column(name = "passwordHash")
+    @Column(name = "password_hash")
     private String passwordHash;
 
     @Column(name = "idRole")

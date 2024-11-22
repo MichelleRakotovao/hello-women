@@ -7,6 +7,7 @@ import java.util.Objects;
 public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="idRole",updatable = false)
     private Integer idRole;
 
     @Column(name = "roleName", nullable = false)

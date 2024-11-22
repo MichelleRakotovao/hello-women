@@ -1,4 +1,4 @@
-/*package Models;
+package Models;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -23,7 +23,7 @@ public class Message {
     @Column(name = "contenu")
     private String contenu;
 
-    @Column(name = "createdAt")
+    @Column(name = "created_at")
     private Date createdAt;
 
 
@@ -112,4 +112,3 @@ public class Message {
         this.idMessage = idMessage;
     }
 }
-*/

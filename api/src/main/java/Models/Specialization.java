@@ -1,4 +1,4 @@
-/*package Models;
+package Models;
 
 import javax.persistence.*;
 
@@ -7,7 +7,7 @@ import javax.persistence.*;
 public class Specialization {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "idspecializaton",updatable = false)
+    @Column(name = "idSpecialization",updatable = false)
     private Long idSpecialization;
 
 
@@ -29,4 +29,4 @@ public class Specialization {
     public void setLabelSpecialization(String labelSpecialization) {
         this.labelSpecialization = labelSpecialization;
     }
-}*/
+}

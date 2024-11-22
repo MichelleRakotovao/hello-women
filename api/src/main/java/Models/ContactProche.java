@@ -1,4 +1,4 @@
-/*package Models;
+package Models;
 
 import javax.persistence.*;
 import javax.ws.rs.core.MediaType;
@@ -53,4 +53,3 @@ public class ContactProche {
         this.idContact = idContact;
     }
 }
-*/

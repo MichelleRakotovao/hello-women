@@ -1,4 +1,4 @@
-/*package Models;
+package Models;
 
 import javax.persistence.*;
 
@@ -76,4 +76,3 @@ public class Consultation {
         this.doctor = doctor;
     }
 }
-*/
