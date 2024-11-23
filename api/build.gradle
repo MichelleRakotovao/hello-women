@@ -23,8 +23,9 @@ dependencies {
     implementation 'io.quarkus:quarkus-websockets'
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
 }
-
 group 'org.acme'
 version '1.0.0-SNAPSHOT'
 
