@@ -26,8 +26,5 @@ public class ChatBotMessageController {
         ChatBotMessageResponseDto savedMessage = chatBotMessageService.saveMessage(message);
         return Response.ok(savedMessage).build();
     }
-
-
-
 }
 
