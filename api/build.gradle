@@ -13,12 +13,22 @@ dependencies {
     implementation 'io.quarkus:quarkus-smallrye-jwt-build'
     implementation 'io.quarkus:quarkus-swagger-ui'
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
+    implementation 'io.quarkus:quarkus-resteasy:2.16.1.Final'
+    implementation 'io.quarkus:quarkus-resteasy-jackson:2.16.1.Final'
+    implementation 'io.quarkus:quarkus-hibernate-orm'
+    implementation 'io.quarkus:quarkus-smallrye-openapi'
+    implementation 'io.quarkus:quarkus-hibernate-orm-panache'
+    implementation 'io.quarkus:quarkus-smallrye-jwt-build'
+    implementation"io.quarkus:quarkus-smallrye-jwt:2.16.1.Final"
+    implementation 'io.quarkus:quarkus-jdbc-postgresql'
     implementation 'io.quarkus:quarkus-arc'
-    implementation 'io.quarkus:quarkus-rest'
+    implementation 'org.mindrot:jbcrypt:0.4'
+    implementation 'io.quarkus:quarkus-websockets'
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
 }
-
 group 'org.acme'
 version '1.0.0-SNAPSHOT'
 
